@@ -3,10 +3,17 @@
 <head>
     <title>Welcome</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        img.full-width {
+            width: 100%;
+            height: 900px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
+    <img src="/images/Welcome.png" alt="Welcome" class="full-width">
     <center>
-        <img src="https://1drv.ms/i/c/8e167ddb7467de2a/EQeIAguolm9DjzJa77LpAm4BGga59Bw--oXaeMM_m72nZA?e=68vcyJ" alt="Welcome" width="800" hight="400">
         <h1 th:text="${message}">Default Message</h1>
         <h1>A Sample JAVA MAVEN SPRINGBOOT WEB APPLICATION</h1>
         <h1>By Sameer A (SkMirza)</h1>
